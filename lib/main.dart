@@ -6,6 +6,7 @@ import 'package:flappy_bird_game/screens/main_menu_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   final game = FlappyBirdGame();
   runApp(
     GameWidget(
@@ -18,3 +19,5 @@ void main() {
 }
 // 1- create backround image in file background.dart
 // 2- create ground image in file ground.dart
+// 3- create bird image in file bird.dart
+// 4- create pipe image in file pipe.dart
