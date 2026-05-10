@@ -2,7 +2,7 @@
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:label="flappy_bird_game"
+        android:label="FlappyBird"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
