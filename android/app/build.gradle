@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.flappy_bird_game"
+    namespace = "com.shimaahossni.flappybird"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
