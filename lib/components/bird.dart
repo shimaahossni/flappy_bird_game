@@ -63,6 +63,7 @@ class Bird extends SpriteGroupComponent<BirdMovement>
 
   void gameOver() {
     debugPrint('game over');
+    FlameAudio.bgm.stop();
     FlameAudio.play(Assets.collision);
     gameRef.overlays.add('gameOver');
     gameRef.pauseEngine();

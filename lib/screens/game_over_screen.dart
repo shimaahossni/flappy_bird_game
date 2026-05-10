@@ -5,6 +5,7 @@
 
 import 'package:flappy_bird_game/game/assets.dart';
 import 'package:flappy_bird_game/game/flappy_bird_game.dart';
+import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -51,5 +52,6 @@ class GameOverScreen extends StatelessWidget {
     game.bird.reset();
     game.overlays.remove('gameOver');
     game.resumeEngine();
+    FlameAudio.bgm.play(Assets.bgm);
   }
 }

@@ -1,6 +1,7 @@
 // screens/main_menu_screen.dart
 import 'package:flappy_bird_game/game/assets.dart';
 import 'package:flappy_bird_game/game/flappy_bird_game.dart';
+import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 
 class MainMenuScreen extends StatelessWidget {
@@ -17,6 +18,7 @@ class MainMenuScreen extends StatelessWidget {
         onTap: () {
           game.overlays.remove('mainMenu');
           game.resumeEngine();
+          FlameAudio.bgm.play(Assets.bgm);
         },
         child: Container(
           width: double.infinity,

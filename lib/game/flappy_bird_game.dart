@@ -9,6 +9,8 @@ import 'package:flappy_bird_game/components/bird.dart';
 import 'package:flappy_bird_game/components/ground.dart';
 import 'package:flappy_bird_game/components/pipe_group.dart';
 import 'package:flappy_bird_game/game/configuration.dart';
+import 'package:flappy_bird_game/game/assets.dart';
+import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 
 //its main class for game
@@ -21,6 +23,7 @@ class FlappyBirdGame extends FlameGame with TapDetector, HasCollisionDetection {
 
   @override
   Future<void> onLoad() async {
+    FlameAudio.bgm.initialize();
     addAll([
       Background(),
       Ground(),

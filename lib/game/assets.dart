@@ -16,6 +16,7 @@ class Assets {
   static const message = 'assets/images/message.png';
 
   //audio
+  static const bgm = 'bgm.wav';
   static const flying = 'fly.wav';
   static const collision = 'collision.wav';
   static const point = 'point.wav';
