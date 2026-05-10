@@ -17,6 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.4.7
 
 flutter:
   uses-material-design: true
@@ -29,3 +30,9 @@ flutter:
     - family: Game
       fonts:
         - asset: assets/fonts/Game.ttf
+
+flutter_native_splash:
+  color: "#D4B493"
+  image: "assets/images/splash.png"
+  android: true
+  ios: true
