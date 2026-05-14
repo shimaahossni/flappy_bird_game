@@ -43,7 +43,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
             children: [
               const SizedBox(height: 40),
               const Text(
-                'SKY RUNNER',
+                'SKY BIRD DASH',
                 style: TextStyle(
                   fontSize: 56,
                   fontWeight: FontWeight.bold,

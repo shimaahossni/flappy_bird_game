@@ -36,7 +36,7 @@ class DifficultySelectorScreen extends StatelessWidget {
             children: [
               const SizedBox(height: 40),
               const Text(
-                'SKY RUNNER',
+                'SKY BIRD DASH',
                 style: TextStyle(
                   fontSize: 48,
                   fontWeight: FontWeight.bold,

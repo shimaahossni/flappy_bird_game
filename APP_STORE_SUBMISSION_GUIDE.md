@@ -1,8 +1,8 @@
-# SKY RUNNER - App Store Submission Guide
+# SKY BIRD DASH - App Store Submission Guide
 
 ## Quick Reference
 
-**App Name:** Sky Runner  
+**App Name:** Sky Bird Dash  
 **Tagline:** Navigate the Skies  
 **Category:** Games > Casual  
 **Age Rating:** 4+ (PEGI 3)  
@@ -65,7 +65,7 @@ flutter build appbundle --release
 
 **1. App Name & Metadata:**
 ```
-App Name: Sky Runner
+App Name: Sky Bird Dash
 Subtitle: Navigate the Skies
 Bundle ID: [Your existing bundle ID]
 SKU: [Your SKU]
@@ -81,7 +81,7 @@ Age Rating: 4+ (PEGI 3)
 - Support URL: [Your support page]
 
 **3. App Information Tab:**
-- App Name: Sky Runner
+- App Name: Sky Bird Dash
 - Subtitle: Navigate the Skies
 
 **4. Rating Tab:**
@@ -99,16 +99,16 @@ Age Rating: 4+ (PEGI 3)
 - Build Number: 1 (or current)
 - Release Notes:
   ```
-  Complete rebranding from Flappy Bird to Sky Runner!
+  Complete rebranding from Flappy Bird to Sky Bird Dash!
   
   What's New:
-  • New name: Sky Runner with butterfly character
+  • New name: Sky Bird Dash with butterfly character
   • Three difficulty levels: Easy, Medium, Hard
   • Cyberpunk-inspired visual theme (purple & blue)
   • Improved UI and menu screens
   • Enhanced gameplay mechanics
   
-  Sky Runner is an engaging casual flying game 
+  Sky Bird Dash is an engaging casual flying game 
   featuring beautiful visuals and multiple 
   difficulty options for all skill levels!
   ```
@@ -123,7 +123,7 @@ Age Rating: 4+ (PEGI 3)
 **Create 5-6 screenshots showing:**
 
 1. **Main Menu**
-   - Title: "Sky Runner"
+   - Title: "Sky Bird Dash"
    - Subtitle: "Navigate the Skies"
    - Butterfly character prominently displayed
    - "TAP TO PLAY" button visible
@@ -162,7 +162,7 @@ Age Rating: 4+ (PEGI 3)
    - Play again option
 
 **Optional: Add Text Overlays**
-- "Sky Runner" title
+- "Sky Bird Dash" title
 - "Difficulty: Easy/Medium/Hard"
 - "Tap to fly!"
 - "Avoid the obstacles!"
@@ -180,7 +180,7 @@ Age Rating: 4+ (PEGI 3)
 
 **1. Basic Information:**
 ```
-App name: Sky Runner
+App name: Sky Bird Dash
 Short description (80 characters max):
 "Navigate through obstacles as a butterfly. 3 difficulty levels!"
 
@@ -197,13 +197,13 @@ See APP_STORE_METADATA.md for complete text
 **3. Graphics & Images:**
 
 **App Icon** (512x512 pixels, PNG):
-- Design a butterfly icon for "Sky Runner"
+- Design a butterfly icon for "Sky Bird Dash"
 - Include purple/blue cyberpunk colors
 - Clear and recognizable
 
 **Feature Graphic** (1024x500 pixels):
 - Main game screenshot
-- "Sky Runner" title
+- "Sky Bird Dash" title
 - "Navigate the Skies" tagline
 - Butterfly character
 
@@ -227,7 +227,7 @@ See APP_STORE_METADATA.md for complete text
 
 **4. Store Listing Details:**
 
-**Title:** Sky Runner
+**Title:** Sky Bird Dash
 
 **Short Description:**
 ```
@@ -237,9 +237,9 @@ Test your reflexes across 3 difficulty levels!
 
 **Full Description:**
 ```
-Sky Runner - A Skill-Based Casual Game
+Sky Bird Dash - A Skill-Based Casual Game
 
-Experience the thrill of Sky Runner, an engaging casual 
+Experience the thrill of Sky Bird Dash, an engaging casual 
 flying game designed to challenge your reflexes and precision!
 
 FEATURES:
@@ -268,12 +268,12 @@ PERFECT FOR:
 Quick gaming sessions during breaks or commutes. 
 Try all three difficulty levels to master the game!
 
-Download Sky Runner now and start your aerial adventure! 🦋
+Download Sky Bird Dash now and start your aerial adventure! 🦋
 ```
 
 **What's New in This Version:**
 ```
-Complete rebranding to Sky Runner!
+Complete rebranding to Sky Bird Dash!
 
 ✨ New Features:
 • Three difficulty levels (Easy, Medium, Hard)
@@ -292,7 +292,7 @@ Complete rebranding to Sky Runner!
 • Smooth animations
 • Professional UI design
 
-Thank you for playing Sky Runner! Your feedback helps us improve.
+Thank you for playing Sky Bird Dash! Your feedback helps us improve.
 ```
 
 **Content Rating:**
@@ -326,12 +326,12 @@ https://your-website.com/support
 Create a page at `https://your-website.com/privacy`:
 
 ```
-PRIVACY POLICY - Sky Runner
+PRIVACY POLICY - Sky Bird Dash
 
 Last Updated: May 14, 2026
 
 1. INFORMATION WE COLLECT
-Sky Runner does NOT collect any personal information.
+Sky Bird Dash does NOT collect any personal information.
 The app operates entirely offline and does not require
 user accounts or data transmission.
 
@@ -351,7 +351,7 @@ See their privacy policies:
 - [Ad Network]: [Link]
 
 4. CHILDREN'S PRIVACY
-Sky Runner is suitable for children and complies 
+Sky Bird Dash is suitable for children and complies 
 with COPPA and similar regulations. We do not 
 knowingly collect data from children under 13.
 
@@ -364,13 +364,13 @@ For privacy questions, contact: [your-email@example.com]
 Create a page at `https://your-website.com/support`:
 
 ```
-SUPPORT - Sky Runner
+SUPPORT - Sky Bird Dash
 
-Welcome to Sky Runner Support!
+Welcome to Sky Bird Dash Support!
 
 GETTING STARTED
 
-How do I play Sky Runner?
+How do I play Sky Bird Dash?
 - Tap to make your butterfly fly upward
 - Navigate between the pipes
 - Don't hit the obstacles!
@@ -401,7 +401,7 @@ I found a bug or have feedback
 Please contact us at: support@example.com
 
 I'm stuck on a level
-There are no levels in Sky Runner! It's an endless game.
+There are no levels in Sky Bird Dash! It's an endless game.
 Focus on consistency and timing to achieve higher scores.
 
 CONTACT US
@@ -410,8 +410,8 @@ For support, please email: support@example.com
 Response time: Usually within 24-48 hours
 
 Follow us on social media:
-- Twitter: @SkyRunnerGame
-- Instagram: @SkyRunnerGame
+- Twitter: @SkyBirdDashGame
+- Instagram: @SkyBirdDashGame
 ```
 
 ---
@@ -430,7 +430,7 @@ Follow us on social media:
 - [ ] No "FlappyBird" references remain
 
 ### Metadata
-- [ ] App name: "Sky Runner" everywhere
+- [ ] App name: "Sky Bird Dash" everywhere
 - [ ] No references to other games
 - [ ] Keywords don't include "flappy" or "bird"
 - [ ] Description is original and compelling
@@ -565,7 +565,7 @@ If Apple asks for more information, be prepared with:
 - Marketing materials
 
 Say something like:
-> "Sky Runner is an original casual game featuring unique 
+> "Sky Bird Dash is an original casual game featuring unique 
 > difficulty levels and a butterfly character. While 
 > inspired by the casual gaming genre, the game includes 
 > custom mechanics, original visuals, and distinct branding 

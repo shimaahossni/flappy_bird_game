@@ -1,10 +1,10 @@
-# SKY RUNNER - Implementation Summary
+# SKY BIRD DASH - Implementation Summary
 
 ## ✅ Changes Completed
 
 ### 1. App Rebranding ✓
 - **Old Name:** FlappyBird
-- **New Name:** Sky Runner
+- **New Name:** Sky Bird Dash
 - **Tagline:** Navigate the Skies 🦋
 
 Updated in:
@@ -153,7 +153,7 @@ Three difficulty modes have been added with different game mechanics:
 ```
 Start App
     ↓
-Main Menu Screen (purple/blue theme, "Sky Runner" title)
+Main Menu Screen (purple/blue theme, "Sky Bird Dash" title)
     ↓
 User taps "TAP TO PLAY"
     ↓
@@ -191,7 +191,7 @@ Game Over (end of current flow)
 
 - [ ] **iOS Device/Simulator:**
   - [ ] All tests above for iOS
-  - [ ] App name shows as "Sky Runner"
+  - [ ] App name shows as "Sky Bird Dash"
   - [ ] Proper layout on different screen sizes
 
 - [ ] **Visual Assets:**
@@ -250,7 +250,7 @@ flutter build appbundle --release
 ### For iOS:
 
 1. **App Information:**
-   - Name: Sky Runner
+   - Name: Sky Bird Dash
    - Bundle ID: (keep your existing)
    - Platform: iOS
    - Primary Language: English
@@ -281,7 +281,7 @@ flutter build appbundle --release
 ### For Google Play Store:
 
 1. **Store Listing:**
-   - Title: Sky Runner
+   - Title: Sky Bird Dash
    - Short Description: (from APP_STORE_METADATA.md)
    - Full Description: (from APP_STORE_METADATA.md)
 
@@ -298,7 +298,7 @@ flutter build appbundle --release
 4. **Release Notes:**
    ```
    Version 2.0.0:
-   • Complete rebranding as "Sky Runner"
+   • Complete rebranding as "Sky Bird Dash"
    • Added three difficulty levels (Easy, Medium, Hard)
    • New cyberpunk-inspired visual theme
    • Improved UI with butterfly character
@@ -437,7 +437,7 @@ flutter analyze
 
 ## Version History
 
-- **v2.0.0** - Complete rebranding from Flappy Bird to Sky Runner
+- **v2.0.0** - Complete rebranding from Flappy Bird to Sky Bird Dash
   - Added difficulty levels
   - New cyberpunk theme
   - Enhanced UI/UX
@@ -446,5 +446,5 @@ flutter analyze
 ---
 
 Generated: May 14, 2026
-Project: Sky Runner
+Project: Sky Bird Dash
 Platform: iOS + Android (Flutter)

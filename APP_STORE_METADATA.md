@@ -1,8 +1,8 @@
-# SKY RUNNER - App Store Connect Metadata
+# SKY BIRD DASH - App Store Connect Metadata
 
 ## Important: Apple Compliance Changes
 
-This document contains the metadata for your rebranded app "Sky Runner" to comply with Apple's Guideline 4.1(a) and differentiate from any third-party content.
+This document contains the metadata for your rebranded app "Sky Bird Dash" to comply with Apple's Guideline 4.1(a) and differentiate from any third-party content.
 
 ---
 
@@ -10,14 +10,13 @@ This document contains the metadata for your rebranded app "Sky Runner" to compl
 
 ### 1. App Information
 
-**App Name:** Sky Runner
+**App Name:** Sky Bird Dash
 **Subtitle:** Navigate the Skies
-**Bundle ID:** (Your existing bundle ID)
 
 ### 2. Description (for App Store)
 
 ```
-Sky Runner is an engaging casual flying game that tests your reflexes and precision. 
+Sky Bird Dash is an engaging casual flying game that tests your reflexes and precision. 
 Navigate your butterfly through an endless maze of obstacles and see how high you can soar!
 
 Features:
@@ -57,7 +56,7 @@ https://your-website.com/privacy
 ### 6. Screenshots (for App Store)
 
 Create 5-6 screenshots showing:
-1. **Main Menu Screen** - Show the purple/blue gradient with "SKY RUNNER" title
+1. **Main Menu Screen** - Show the purple/blue gradient with "SKY BIRD DASH" title
 2. **Difficulty Selection** - Show the three difficulty buttons
 3. **Gameplay Easy** - Butterfly navigating with wide pipe gaps
 4. **Gameplay Medium** - Challenging gameplay
@@ -82,7 +81,7 @@ Create a 15-30 second video showing:
 
 ### 1. App Name
 ```
-Sky Runner
+Sky Bird Dash
 ```
 
 ### 2. Short Description
@@ -93,9 +92,9 @@ Navigate your butterfly through endless obstacles. Test your skills across 3 dif
 ### 3. Full Description
 
 ```
-Sky Runner - A Skill-Based Casual Game
+Sky Bird Dash - A Skill-Based Casual Game
 
-Experience the thrill of Sky Runner, an engaging casual flying game designed to challenge 
+Experience the thrill of Sky Bird Dash, an engaging casual flying game designed to challenge 
 your reflexes and precision!
 
 FEATURES:
@@ -122,21 +121,21 @@ HOW TO PLAY:
 • Try all three difficulty levels to master the game
 
 PRIVACY:
-Sky Runner respects your privacy. This game does not collect or share personal data.
+Sky Bird Dash respects your privacy. This game does not collect or share personal data.
 
 Perfect for quick gaming sessions during breaks or commutes!
 
-Download Sky Runner now and start your aerial adventure! 🦋
+Download Sky Bird Dash now and start your aerial adventure! 🦋
 ```
 
 ### 4. Short Title
 ```
-Sky Runner - Butterfly Flight Game
+Sky Bird Dash - Butterfly Flight Game
 ```
 
 ### 5. Full Title
 ```
-Sky Runner - Navigate the Skies
+Sky Bird Dash - Navigate the Skies
 ```
 
 ### 6. Category
@@ -181,7 +180,7 @@ casual, flying, game, butterfly, skill, arcade, free, challenge, mobile, fun
 ## Checklist Before Submission
 
 ### Code Changes ✓
-- [x] Renamed app from "FlappyBird" to "Sky Runner"
+- [x] Renamed app from "FlappyBird" to "Sky Bird Dash"
 - [x] Updated iOS Info.plist CFBundleDisplayName
 - [x] Updated Android AndroidManifest.xml
 - [x] Added difficulty level system
@@ -190,7 +189,7 @@ casual, flying, game, butterfly, skill, arcade, free, challenge, mobile, fun
 - [x] Updated UI screens with new branding
 
 ### Store Metadata
-- [ ] App name: "Sky Runner" (not "Flappy" or "Bird")
+- [ ] App name: "Sky Bird Dash" (not "Flappy" or "Bird")
 - [ ] Subtitle: "Navigate the Skies"
 - [ ] Description: Original, no references to third-party games
 - [ ] Keywords: No "flappy", "bird", or copycat terms
@@ -263,6 +262,6 @@ When submitting, you may want to include a note in "App Review Information" stat
 
 - Version: 2.0.0
 - Build: 2
-- Bundle Name: Sky Runner
-- Display Name: Sky Runner
+- Bundle Name: Sky Bird Dash
+- Display Name: Sky Bird Dash
 - Subtitle: Navigate the Skies
