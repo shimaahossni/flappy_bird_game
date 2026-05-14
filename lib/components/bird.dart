@@ -67,7 +67,7 @@ class Bird extends SpriteGroupComponent<BirdMovement>
     FlameAudio.play(Assets.collision);
     gameRef.overlays.add('gameOver');
     gameRef.pauseEngine();
-    game.isHit = true;
+    gameRef.isHit = true;
   }
 
   @override

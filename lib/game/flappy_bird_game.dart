@@ -15,21 +15,29 @@ import 'package:flutter/material.dart';
 
 //its main class for game
 class FlappyBirdGame extends FlameGame with TapDetector, HasCollisionDetection {
-  FlappyBirdGame();
+  GameDifficulty selectedDifficulty;
+  int currentLevel = 1;
+  
+  FlappyBirdGame({this.selectedDifficulty = GameDifficulty.medium});
+  
   late Bird bird;
-  Timer interval = Timer(config.pipeInterval, repeat: true);
+  late Timer interval;
   bool isHit = false;
   late TextComponent score;
+  late TextComponent difficultyText;
 
   @override
   Future<void> onLoad() async {
+    config.setDifficulty(selectedDifficulty);
     FlameAudio.bgm.initialize();
+    interval = Timer(config.pipeInterval, repeat: true);
+    
     addAll([
       Background(),
       Ground(),
       bird = Bird(),
-      // PipeGroup(),
       score = buildScore(),
+      difficultyText = buildDifficultyText(),
     ]);
     interval.onTick = () => add(PipeGroup());
   }
@@ -44,6 +52,22 @@ class FlappyBirdGame extends FlameGame with TapDetector, HasCollisionDetection {
         fontSize: 40,
         fontWeight: FontWeight.bold,
         fontFamily: 'Game',
+      )),
+    );
+  }
+
+  TextComponent buildDifficultyText() {
+    String diffText = selectedDifficulty.toString().split('.').last.toUpperCase();
+    return TextComponent(
+      text: diffText,
+      position: Vector2(20, 30),
+      anchor: Anchor.topLeft,
+      textRenderer: TextPaint(
+          style: const TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Game',
+        color: Colors.white,
       )),
     );
   }
